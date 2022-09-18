@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+header {
+  width: 100%;
+  height: 88px;
+  background-color: rgb(49, 51, 55);
+  display: flex;
+}
+
+.logo {
+  width: 20%;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.headerp {
+  list-style: none;
+  color: white;
+  font-family: serif;
+  font-size: 16px;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.toppage {
+  position: relative;
+  animation: fadein 3s forwards;
+}
+
+.toppage img {
+  width: 99%;
+}
+
+.toppage p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 64px;
+  color: white;
+  padding: 0;
+  padding-left: 60%;
+  margin: 50;
+  font-family: serif;
+  display: flex;
+}
+
+footer {
+  width: 100%;
+  height: 54px;
+  background-color: rgb(49, 51, 55);
+}
+
+.footerp {
+  font-size: 15px;
+  color: white;
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+section {
+  width: 100vw;
+  height: 931px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: serif;
+  height: 1096px;
+  animation: fadein 3s forwards;
+}
+
+.section1 h1 {
+  margin: 0;
+  font-size: 40px;
+  padding-top: 200px;
+}
+.section1 h2 {
+  margin: 0;
+  font-size: 36px;
+  padding-top: 93px;
+}
+
+.section2 {
+  width: 100vw;
+  height: 1302px;
+}
+
+.section3 {
+  width: 100vw;
+  height: 2600px;
+  animation: fadein 3s forwards;
+}
+
+.exp {
+  margin: 0;
+  font-weight: medium;
+  font-size: 25px;
+  padding-top: 86px;
+}
+
+.info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  animation: fadein 3s forwards;
+}
+
+.box {
+  margin: auto;
+  width: 1180px;
+  height: 1337px;
+  background: rgb(244, 244, 244);
+  border-radius: 50px;
+  margin: 0;
+}
+
+.info1 {
+  margin: 0;
+  position: absolute; /*絶対配置*/
+  font-size: 60px;
+  color: rgb(181, 119, 97);
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 110px;
+}
+
+.info2 {
+  margin: 0;
+  position: absolute; /*絶対配置*/
+  font-size: 50px;
+  color: rgb(3, 3, 3);
+  font-family: serif;
+  font-weight: medium;
+  text-align: center;
+  padding-top: 392px;
+  padding-left: 55%;
+}
+
+.info3 {
+  margin: 0;
+  position: absolute; /*絶対配置*/
+  font-size: 40px;
+  color: rgb(3, 3, 3);
+  font-family: serif;
+  text-align: center;
+  font-weight: medium;
+  padding-top: 425px;
+  padding-right: 35%;
+}
+
+.info4 {
+  margin: 0;
+  position: absolute; /*絶対配置*/
+  font-size: 40px;
+  color: rgb(3, 3, 3);
+  font-family: serif;
+  text-align: center;
+  font-weight: medium;
+  padding-top: 1090px;
+  padding-left: 40%;
+}
+
+.infoimg {
+  width: 70%;
+  position: absolute; /*絶対配置*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 400px;
+}
+
+.lineup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 64px;
+  color: rgb(3, 3, 3);
+  font-family: serif;
+  padding-top: 186px;
+}
+
+.line1 {
+  position: absolute; /*絶対配置*/
+  display: flex;
+  padding-top: 650px;
+  padding-right: 23%;
+}
+.line1 hr {
+  transform: rotate(50deg);
+  width: 260px;
+  border: 0;
+  border-top: 3px solid rgb(123, 81, 66);
+  margin: 0;
+  padding: 0;
+}
+
+.line2 {
+  position: absolute; /*絶対配置*/
+  display: flex;
+  padding-top: 1000px;
+  padding-left: 20%;
+}
+.line2 hr {
+  transform: rotate(40deg);
+  width: 270px;
+  border: 0;
+  border-top: 3px solid rgb(123, 81, 66);
+  margin: 0;
+  padding: 0;
+}
+
+.libox {
+  position: relative;
+  margin: 0;
+  width: 364px;
+  height: 643px;
+  background: rgb(180, 162, 145);
+  border-radius: 85px;
+}
+
+.lineuplist {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  gap: 41px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+.row2 {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+.row3 {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+
+.boxbeautiful {
+  display: flex;
+  justify-content: center;
+}
+
+.boxextend {
+  display: flex;
+  justify-content: center;
+}
+
+.box3cm {
+  display: flex;
+  justify-content: center;
+}
+
+.boxthick {
+  display: flex;
+  justify-content: center;
+}
+
+.box7cm {
+  display: flex;
+  justify-content: center;
+}
+
+.box4E {
+  display: flex;
+  justify-content: center;
+}
+
+.boxballet {
+  display: flex;
+  justify-content: center;
+}
+
+.boxwaterproof {
+  display: flex;
+  justify-content: center;
+}
+
+.lip {
+  color: white;
+  font-size: 15px;
+  margin-top: 379px;
+  text-align: center;
+  position: absolute; /*絶対配置*/
+  font-family: serif;
+}
+
+.lih {
+  color: white;
+  margin-top: 340px;
+  position: absolute; /*絶対配置*/
+  font-family: serif;
+}
+
+.beautiful {
+  position: absolute; /*絶対配置*/
+  width: 90%;
+}
+.extend {
+  position: absolute; /*絶対配置*/
+  width: 95%;
+}
+.a3cm {
+  position: absolute; /*絶対配置*/
+  width: 95%;
+}
+.thick {
+  position: absolute; /*絶対配置*/
+  width: 95%;
+}
+.a7cm {
+  position: absolute; /*絶対配置*/
+  width: 90%;
+}
+.a4E {
+  position: absolute; /*絶対配置*/
+  width: 97%;
+}
+.ballet {
+  position: absolute; /*絶対配置*/
+  width: 90%;
+}
+.waterproof {
+  position: absolute; /*絶対配置*/
+}
+
+.detail {
+  position: relative;
+  position: absolute;
+  margin: 0;
+  width: 210px;
+  height: 84px;
+  background: rgb(181, 119, 97);
+  border-radius: 41px;
+  margin-top: 456px;
+}
+
+.detailp {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 485px;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.cambox {
+  position: relative;
+  margin: 0;
+  width: 387px;
+  height: 123px;
+  background: rgb(181, 119, 97);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.campain {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 84px;
+}
+
+.campain p {
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+.register {
+  font-family: serif;
+  font-size: 16px;
+  margin-top: 18px;
+}
+
+.coupon {
+  font-family: serif;
+  margin-top: 49px;
+  font-size: 20px;
+}
+
+.exchange {
+  font-family: serif;
+  font-size: 16px;
+  margin-top: 48px;
+}
+.postage {
+  font-family: serif;
+  font-size: 16px;
+  margin-top: 35px;
+}
+
+.fixed_btn {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  background: rgba(181, 119, 97, 0.5);
+  border-radius: 100%;
+  bottom: 26px;
+  right: 20px;
+  outline: none;
+  font-family: serif;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  animation: fadein 3s forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
